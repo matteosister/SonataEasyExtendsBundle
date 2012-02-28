@@ -23,8 +23,8 @@ class OdmMetadata
     {
         $this->mappingDocumentDirectory           = sprintf('%s/Resources/config/doctrine/', $bundleMetadata->getBundle()->getPath());
         $this->extendedMappingDocumentDirectory   = sprintf('%s/Resources/config/doctrine/', $bundleMetadata->getExtendedDirectory());
-        $this->documentDirectory                  = sprintf('%s/Document', $bundleMetadata->getBundle()->getPath());
-        $this->extendedDocumentDirectory          = sprintf('%s/Document', $bundleMetadata->getExtendedDirectory());
+        $this->documentDirectory                  = sprintf('%s/Document/ODM', $bundleMetadata->getBundle()->getPath());
+        $this->extendedDocumentDirectory          = sprintf('%s/Document/ODM', $bundleMetadata->getExtendedDirectory());
     }
 
     public function getMappingDocumentDirectory()
