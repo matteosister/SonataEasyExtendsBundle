@@ -43,7 +43,6 @@ class BundleGenerator implements GeneratorInterface
         $directories = array(
             '',
             'Resources/config/doctrine',
-            'Resources/config/doctrine/ODM',
             'Resources/config/routing',
             'Resources/views',
             'Command',
